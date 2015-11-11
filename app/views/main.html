@@ -1,0 +1,57 @@
+
+<div class="cover">
+  <a href="https://itunes.apple.com/br/app/id1047268217?mt=8" class="playstore" target="_blank">
+    <img src="app/images/appstore_link.png" />
+  </a>
+</div>
+
+<div class="teaser">
+  <h1>Um est&iacute;mulo a mais para praticar <br /> esportes e conhecer pessoas</h1>
+  <p class="description">
+    Veja como é fácil gerenciar sua agenda de atividades e <br />
+    eventos esportivos, procurar escolinhas perto de você <br />
+    e conhecer novas pessoas através da Want2Play.</p>
+  <img src="app/images/sports_icon.png" />
+</div>
+
+<div class="overview">
+
+</div>
+
+<div class="advertise">
+  <h1>
+    Quer um espaço de destaque na WANT2PLAY?<br/>
+    Veja abaixo opções que preparamos para você.
+  </h1>
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Escolinha</h2>
+      <img src="app/images/TelaEscolinha.png" alt="Escolhinha"/>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Aulão</h2>
+      <img src="app/images/TelaAulao.png" alt="Aulão"/>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Clubes e Quadras</h2>
+      <img src="app/images/TelaClubesQuadras.png" alt="Clubes e Quadras"/>
+    </div>
+  </div>  
+</div>
+
+
+<div class="contact">
+  <h1>
+    ENTRE EM CONTATO
+  </h1>
+  <br/>
+  <form ng-submit="enviaEmail()" ng-controller="MainCtrl">
+    <input type="text" ng-model="user.name" placeholder="Seu nome"/><br/><br/>
+    <input type="text" ng-model="user.email" placeholder="Seu email"/><br/><br/>
+    <input type="text" ng-model="user.assunto" placeholder="Assunto"/><br/><br/>
+    <textarea ng-model="user.mensagem" placeholder="Mensagem" rows="10" style="width: 550px;"></textarea><br/><br/>
+    <input type="submit" class="btn btn-success" value="ENVIAR MENSAGEM" style="width: 550px; height: 30px;"/><br/><br/>
+  </form>
+</div>
